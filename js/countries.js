@@ -53,5 +53,4 @@ const showDetails = (data) => {
   <p>Language: ${Object.keys(data[0].languages)[0]}</p>
   <img height="150px" src="${data[0].flags.png}" alt="">
   `;
-  console.log(Object.keys(data[0].languages))
 }
