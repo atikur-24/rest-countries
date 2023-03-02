@@ -27,8 +27,6 @@ const showCountries = countries => {
         container.appendChild(div);
     })
 }
-// calling 
-loadCountriesData()
 
 // get all data and pass all data using slice to show in the UI when click See All button
 const showAllCountryData = () => {
@@ -54,3 +52,6 @@ const showDetails = (data) => {
   <img height="150px" src="${data[0].flags.png}" alt="">
   `;
 }
+
+// calling 
+loadCountriesData()
